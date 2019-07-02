@@ -34,11 +34,7 @@ public class Main1035 {
 				System.out.println(++count1 + " step(s) to exit");
 			} else {
 				dfs1(0, flag - 1);
-				if (count2 == 0) {
-					System.out.println("0 step(s) before a loop of " + count1 + " step(s)");
-				} else {
-					System.out.println(count2 + " step(s) before a loop of " + (count1 - count2) + " step(s)");
-				}
+				System.out.println(count2 + " step(s) before a loop of " + (count1 - count2) + " step(s)");
 			}
 		}
 	}
