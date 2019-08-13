@@ -1,6 +1,5 @@
 package 杭电oj;
 
-import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
